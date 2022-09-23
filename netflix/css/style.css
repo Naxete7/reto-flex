@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+}
+
+.header {
+    background-color: black;
+    grid-column: 1 / 6;
+    color: white;
+    display: flex;
+}
+
+.main {
+    background-color: black;
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+    align-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.footer {
+    background-color: black;
+    grid-row: 3 / 5;
+    grid-column: 1 / 6;
+}
+
+#logo {
+    width: 10em;
+    background-color: black;
+}
+
+#peliculas {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#documentales {
+    width: 7em;
+    height: 2em;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logos {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+#campana {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#lupa {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#opciones {
+    width: 300vw;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    word-spacing: 1em;
+    margin-left: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pelicula {
+    width: 18.5em;
+    height: 10.5em;
+    margin-right: 0.3em;
+}
