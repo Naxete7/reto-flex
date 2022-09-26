@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/F0lGcLz.jpg);
+    display: flex;
+}
+
+.cabecera {
+    display: flex;
+}
+
+.logo {}
+
+#input {
+    width: 30vw;
+    height: 5vh;
+    box-shadow: 1px 1px 1px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 35em;
+    margin-right: auto;
+    margin-top: 10em;
+}
+
+.opciones {
+    display: flex;
+    text-size-adjust: 30px;
+    color: white;
+    margin-left: 5em;
+    margin-top: 1.5em;
+    gap: 2em;
+}
+
+.sesion {
+    display: flex;
+    color: white;
+    margin-left: 25em;
+    margin-top: 1.5em;
+    gap: 2em;
+}
+
+.footer {
+    display: flex;
+    gap: 4em;
+    margin-left: 37em;
+    margin-top: 1em;
+    justify-content: center;
+    align-content: center;
+    width: 15vw;
+    height: 10vh;
+}
+
+.info {
+    margin-top: 22em;
+    display: flex;
+}
+
+.info-der {
+    margin-left: auto;
+}
