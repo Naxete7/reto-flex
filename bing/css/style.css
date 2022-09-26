@@ -3,11 +3,13 @@ body {
     display: flex;
 }
 
+.contenedor {
+    margin-left: 5em;
+}
+
 .cabecera {
     display: flex;
 }
-
-.logo {}
 
 #input {
     width: 30vw;
@@ -24,7 +26,6 @@ body {
 
 .opciones {
     display: flex;
-    text-size-adjust: 30px;
     color: white;
     margin-left: 5em;
     margin-top: 1.5em;
@@ -53,6 +54,8 @@ body {
 .info {
     margin-top: 22em;
     display: flex;
+    border-radius: 6px;
+    bottom: 100%;
 }
 
 .info-der {
